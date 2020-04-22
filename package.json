@@ -6,8 +6,7 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "onchange": "^6.1.0",
+    "parallelshell": "^3.0.2",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
